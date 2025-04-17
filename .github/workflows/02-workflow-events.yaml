@@ -3,8 +3,6 @@ name: 02-workflow-events
 on:
   push:
   pull_request:
-  schedule:
-    - cron: '*/5 * * * *' # Every 5 minutes. https://crontab.cronhub.io/
   workflow_dispatch: #manual trigger from the UI
 
 jobs:
