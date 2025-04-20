@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-      - name: Printing Directory Structures (folders)
+      - name: Printing Folders
         run: ls
 
     #1. Install dependencies of ASP.NET Core MVC Application
